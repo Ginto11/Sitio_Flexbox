@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="Stylesheet" href="CSS/estilos.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilosContacto.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilosEncuesta.css">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap" rel="stylesheet">
+	<title>Pagina Flex</title>
+</head>
+<body>
+	<header class="contenedor__header">
+			<div class="contenedor__lista lista1">
+				
+				<div class="icono">
+					<a id="icono" style="text-decoration: none; color: #000;" href="index.html"><i class="icon icon-make-group"></i></a>
+				</div>
+				
+				<div id="contenedor__inicio" class="link">
+					<a id="inicio" class="iconos__header" href="index.html">Inicio</a>
+				</div>
+				
+				<div id="contenedor__encuesta" class="link">
+					<a id="encuesta" class="iconos__header" href="encuesta.html">Encuesta</a>
+				</div>
+
+			</div>
+			<div class="contenedor__lista">
+				<div id="contenedor__contacto" class="link">
+					<a id="contacto" class="iconos__header" href="contacto.html">Contacto</a>
+				</div>
+			</div>
+	</header>
+
+	<div class="contenedor__cuerpo">
+		<section class="contenedor__seccion">
+			<article class="contenedor__articulo">
+				<div class="contenedor__contenido">
+					<h1 class="contenedor__articulo--titulo">Pagina con FlexBox</h1>
+				</div>
+				<div class="contenedor__contenido">
+					<p class="contenedor__articulo--parrafo">Esta pagina fue realizada, con el fin de poner a prueba el conocimiento acerca de flexbox el cual sirve para el posicionamiento de los elementos de Dom y por consiguiente aqui explico el funcionamiento de sus atributos. <br> Para trabajar con FlexBox se tienen que tener en cuenta varias cosas o acciones. Como que el contenedor padre debe tener un display flex para utilizar todos los atributos correspondientes</p>
+				</div>
+				<div class="contenedor__contenido">
+					<h1 class="contenedor__articulo--titulo"> Atributos</h1>
+					<ul>
+						<li class="listas"><b>flex-direction:</b> Sirve para estipular como van a estar organizados los elementos si en columnas o filas y su valores son:</li>
+						<ul style="list-style: circle;">
+							<li>row</li>
+							<li>column</li>
+							<li>row-reverse</li>
+							<li>column-reverse</li>
+						</ul>
+						<li class="listas"><b>flex-wrap:</b> Esto permite que cada elemento que supere el tamaño del contenedor padre se vaya poniendo debajo sucesivamente y sus valores son:</li>
+						<ul style="list-style: circle;">
+							<li>wrap</li>
+							<li>nowrap</li>
+							<li>wrap-reverse</li>
+						</ul>
+						<li class="listas"><b>align-items:</b> Sirve para posicionar elementos verticamente y sus valores son:</li>
+						<ul style="list-style: circle;">
+							<li>center</li>
+							<li>space-around</li>
+							<li>flex-start</li>
+							<li>flex-end</li>
+							<li>stretch</li>
+							<li>baseline</li>
+						</ul>
+						<li class="listas"><b>justify-content:</b> Se utiliza cuando se quiere posicionar elementos horizontalmente y sus valores son:</li>
+						<ul style="list-style: circle;">
+							<li>center</li>
+							<li>space-around</li>
+							<li>space-between</li>
+							<li>flex-end</li>
+							<li>flex-start</li>
+						</ul>
+						<li class="listas"><b>align-content:</b> Sirve para agrupar elementos que esten en wrap y sus valores son:</li>
+						<ul style="list-style: circle;">
+							<li>center</li>
+							<li>flex-end</li>
+							<li>flex-start</li>
+							<li>space-around</li>
+							<li>space-between</li>
+						</ul>
+					</ul>
+				</div>
+			</article>
+
+			<aside class="contenedor__aside"> 
+				<div class="contenedor__imagen">
+					<img src="IMG/foto.jpg" width="280">
+					<p class="pie__imagen"><b>Autor:</b> Nelson Muñoz</p>
+				</div>
+			</aside>
+
+		</section>
+	</div>
+
+	<footer class="pie__pagina">
+
+		<div class="pie__pagina--cuentas">
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-facebook iconos__footer"></i>
+				<a target="Si" id="cuentas" class="links__footer">Facebook</a>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-instagram1 iconos__footer"><a target="Si" id="cuentas" class="links__footer">Instagram</a></i>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-youtube1 iconos__footer"><a target="Si" id="cuentas" class="links__footer">Youtube</a></i>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-twitter iconos__footer"><a target="Si" id="cuentas" class="links__footer">Twitter</a></i>
+			</div>
+
+		</div>
+	</footer>
+</body>
+</html>

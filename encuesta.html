@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="Stylesheet" href="CSS/estilos.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilosContacto.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilosEncuesta.css">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap" rel="stylesheet">
+	<title>Pagina Flex</title>
+</head>
+<body>
+	<header class="contenedor__header">
+			<div class="contenedor__lista">
+				
+				<div class="icono">
+					<a id="icono" style="text-decoration: none; color: #000;" href="index.html"><i class="icon icon-make-group"></i></a>
+				</div>
+				
+				<div id="contenedor__inicio" class="link">
+					<a id="inicio" class="iconos__header" href="index.html">Inicio</a>
+				</div>
+				
+				<div id="contenedor__encuesta" class="link">
+					<a id="encuesta" class="iconos__header" href="encuesta.html">Encuesta</a>
+				</div>
+
+			</div>
+			<div class="contenedor__lista">
+				<div id="contenedor__contacto" class="link">
+					<a id="contacto" class="iconos__header" href="contacto.html">Contacto</a>
+				</div>
+			</div>
+	</header>
+
+	<div class="contenedor__formulario">
+		<form class="formulario__encuesta" action="enviar.php" method="POST">
+
+			<label class="contenedor__titulo"><h1 class="titulo">Encuesta</h1></label>
+
+			<label class="contenedor__inputs--encuesta" for="nombre">Nombre <br>
+				<input class="inputs__encuesta" type="text" name="nombre" placeholder="Juan" required>
+			</label>
+
+			<label class="contenedor__inputs--encuesta" for="apellido">Apellido <br>
+				<input class="inputs__encuesta" type="text" name="apellido" placeholder="Castro" required>
+			</label>
+
+			<label class="contenedor__inputs--encuesta" for="edad">Edad <br>
+				<input class="inputs__encuesta" type="number" name="edad" placeholder="20" required>
+			</label>
+
+			<label class="contenedor__inputs--encuesta" for="puntaje">Puntaje del sitio <br>
+				<input class="inputs__encuesta" type="number" name="puntaje" placeholder="1-10" required>
+			</label>
+
+			<label id="label__textarea" class="contenedor__inputs--encuesta " for="Resena">Reseña <br>
+				<textarea id="textarea" class="inputs__encuesta" type="text" name="resena" placeholder="Es muy buena pagina, tiene una buena combinacion de colores y sombras" required></textarea>
+			</label>
+
+			<label id="label__textarea" class="contenedor__inputs--encuesta " for="pregunta1">¿Que se puede mejorar? <br>
+				<textarea id="textarea" class="inputs__encuesta" type="text" name="pregunta1" placeholder="Utilizar mas colores" required></textarea>
+			</label>
+
+			<label id="label__textarea" class="contenedor__inputs--encuesta " for="pregunta2">¿Que te gusto del sitio? <br>
+				<textarea id="textarea" class="inputs__encuesta" type="text" name="pregunta2" placeholder="Todo" required></textarea>
+			</label>
+
+			<input id="btn" class="inputs__encuesta" class="btn" type="submit" name="Enviar">
+		</form>
+	</div>
+
+	<footer class="pie__pagina">
+
+		<div class="pie__pagina--cuentas">
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-facebook iconos__footer"></i>
+				<a target="Si" id="cuentas" class="links__footer" href="https://www.facebook.com/groups/1339948533119446">Facebook</a>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-instagram1 iconos__footer"><a target="Si" id="cuentas" class="links__footer" href="https://www.instagram.com/nelsonmunoz.11/">Instagram</a></i>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-youtube1 iconos__footer"><a target="Si" id="cuentas" class="links__footer" href="https://www.youtube.com/channel/UCdv2jOMi9HoOLBN6J0TpCyw">Youtube</a></i>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-twitter iconos__footer"><a target="Si" id="cuentas" class="links__footer" href="https://twitter.com/NelsonM78917577">Twitter</a></i>
+			</div>
+
+		</div>
+		</footer>
+</body>
+</html>

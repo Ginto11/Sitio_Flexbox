@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="Stylesheet" href="CSS/estilos.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilosContacto.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilosEncuesta.css">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap" rel="stylesheet">
+	<title>Pagina Flex</title>
+</head>
+<body>
+	<header class="contenedor__header">
+			<div class="contenedor__lista">
+				
+				<div class="icono">
+					<a id="icono" style="text-decoration: none; color: #000;" href="index.html"><i class="icon icon-make-group"></i></a>
+				</div>
+				
+				<div id="contenedor__inicio" class="link">
+					<a id="inicio" class="iconos__header" href="index.html">Inicio</a>
+				</div>
+				
+				<div id="contenedor__encuesta" class="link">
+					<a id="encuesta" class="iconos__header" href="encuesta.html">Encuesta</a>
+				</div>
+
+			</div>
+			<div class="contenedor__lista">
+				<div id="contenedor__contacto" class="link">
+					<a id="contacto" class="iconos__header" href="contacto.html">Contacto</a>
+				</div>
+			</div>
+	</header>
+
+	<div class="contenedor__form">
+		<form class="form" action="" method="POST">
+
+			<label>
+				<h1 class="titulo__form">Contacteme</h1>
+			</label>
+			<label class="label__input">Nombre <br>
+				<input class="input" type="text" name="nombre" placeholder="Carlos" required>
+			</label>
+
+			<label class="label__input">Email <br>
+				<input class="input" type="email" name="email" placeholder="carlos@gmail.com" required>
+			</label>
+
+			<label class="label__input">Asunto <br>
+				<input class="input" type="text" name="asunto" placeholder="Saludo" required>
+			</label>
+
+			<label class="label__input">Mensaje <br>
+				<textarea class="text__tarea" name="mensaje" placeholder="Hola que tal, ¿como estas?"></textarea>
+			</label>
+
+			<label>
+				<input class="btn" type="submit">
+			</label>
+		</form>
+	</div>
+
+	<footer class="pie__pagina">
+
+		<div class="pie__pagina--cuentas">
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-facebook iconos__footer"></i>
+				<a target="Si" id="cuentas" class="links__footer" href="https://www.facebook.com/groups/1339948533119446">Facebook</a>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-instagram1 iconos__footer"><a target="Si" id="cuentas" class="links__footer" href="https://www.instagram.com/nelsonmunoz.11/">Instagram</a></i>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-youtube1 iconos__footer"><a target="Si" id="cuentas" class="links__footer" href="https://www.youtube.com/channel/UCdv2jOMi9HoOLBN6J0TpCyw">Youtube</a></i>
+			</div>
+
+			<div class="contenedor__cuenta">
+				<i class="icon icon-twitter iconos__footer"><a target="Si" id="cuentas" class="links__footer" href="https://twitter.com/NelsonM78917577">Twitter</a></i>
+			</div>
+
+		</div>
+	</footer>
+</body>
+</html>
